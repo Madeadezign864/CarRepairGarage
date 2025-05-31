@@ -1,0 +1,113 @@
+ 
+    .dropdown-menu{
+        background-color: lightgray;
+        font-size: 26px;
+        border-radius: 20px;
+        text-align: center;
+        color:rgb(136, 170, 170);
+    }
+    .container-fluid{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     justify-content: center;
+      height:100px;
+      background-color:rgb(135, 169, 170);
+      font-weight: bold; 
+    }
+    .btn.btn-outline-success {
+      font-size:smaller;
+      font-weight:bolder;
+    }
+    .btn{
+      font-size: smaller;
+      color:aliceblue;
+      background-color:black;
+    }
+    h5{
+        padding-right: 5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+    .navbar-brand {
+        display:flex;
+        align-items: center;
+      width:240px;
+      height: 90px;
+      border-radius: 100%;
+      box-shadow:5px 5px 5px 5px #3891b4;
+      padding-left: 30px;
+      padding-top: 30px;
+      background-color: red;
+     
+    }
+    .dropdown-menu{
+        background-color: lightgray;
+        font-size: 26px;
+        border-radius: 20px;
+        text-align: center;
+        color:rgb(136, 170, 170);
+    }
+    .container-fluid{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+     justify-content: center;
+      height:100px;
+      background-color:rgb(135, 169, 170);
+      font-weight: bold; 
+    }
+    .btn.btn-outline-success {
+      font-size:smaller;
+      font-weight:bolder;
+    }
+    .btn.btn-outline-secondary:hover {
+      background-color:blue;
+    }
+    .btn.btn-outline-secondary{
+        background-color: black;
+        color:aliceblue;
+    }
+  
+    .nav-item:hover{
+      color:blue;
+    }
+    .nav-item{
+        font-size: 26px;
+    }
+    .container-main-top {
+      background-color:bisque;
+      padding-bottom: 15px;
+      padding-top: 2px;
+    }
+    #maps{
+      text-align: center;
+      width:600px;
+    }
+    .carousel-item{
+        height:700px;
+    }
+    #where{
+     padding: 30px;
+       background-color:bisque;
+      text-align: center;
+     }
+    #main{
+      height:400px;
+      width:auto;
+    }
+    .footer-column {
+    text-align: center;
+      height:200px;
+       background-color:rgb(135, 169, 170);
+    }
+
+    footer{
+      margin-top:8px;
+    }
+
+     .nav-footer{
+      background-color: rgb(240, 21, 21);
+      color:aliceblue;font-weight: bold;
+  
+    }
+    #dots{
+      list-style-type: none;
+    }

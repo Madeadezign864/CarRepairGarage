@@ -1,0 +1,128 @@
+body{
+        background-color:cornsilk;
+    }
+   .navbar-brand{
+    display:flex;
+      width:190px;
+      height: 60px;
+      border-radius: 100%;
+      box-shadow:5px 5px 5px 5px #3891b4;
+      padding-left: 30px;
+      padding-top: 30px;
+      background-color: rgb(141, 224, 176);
+    }
+ 
+
+.nav-link.dropdown-toggle {
+    text-align: center !important;
+}
+   
+
+ nav {
+    background-color: #be3a3a; /* black background to complement blue header */
+    padding: 20px;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+li{
+    font-size: 10px;
+}
+.nav-bar{
+        display:flex;
+       align-items: center;
+       justify-content: center;
+        height:19px;
+        padding-bottom: 20px;
+    }
+nav ul {   
+    list-style: none;
+}
+
+nav ul li {  
+    text-align: center;
+    margin-right: 30px;
+     color:antiquewhite;
+     font-size: 25px;
+     font-weight:600;
+}
+header{
+
+  height:100px;
+     box-shadow: 15px 0px 0px 15px #577253;
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(3, 27, 3);
+  text-align: center;
+  padding-top: 20px;
+
+}
+.banner{
+    height:800px;
+}
+h2{
+    padding: 10px 0px 0px 15px;
+}
+.nav-link:hover, .nav-link:focus {
+    color: black !important;
+}
+    p {
+      font-size: 22px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left:20px;
+      padding-right:10px;
+    }
+    .cat {
+      background-color:cornsilk;
+      border-radius: 20px;
+      float:left;
+      margin:5% 0% 5% 3%;
+      box-shadow: 0px 0px 5px 5px #577253;op: 20px;
+    }
+    .cat:hover {
+      background-color:#fff;
+    }
+    .dog {
+      background-color:cornsilk;
+      border-radius: 20px;
+      float:right;
+      margin:5% 5% 5% 5%;
+      box-shadow: 0px 0px 5px 5px #577253;op: 20px;
+    }
+    .dog:hover{
+      background-color:#fff;
+    }
+    footer {
+      clear:both;
+      text-align: center;
+      background-color: blueviolet;
+    }
+    .story {
+      height:50%;
+      width:38%;
+      float:left;
+      padding:15px 15px 15px 15px;
+    }
+     .first-about-row{
+       box-shadow: 15px 0px 0px 15px #577253;
+}
+    .second-about-row{
+        display:flex-inline;
+    }
+    .dropdown-item:hover {
+    color:antiquewhite !important;
+    background-color:darkgray !important;
+}
+.dropdown-menu{
+        background-color: lightgray !important;
+        border-radius: 10px;
+        text-align: center !important;
+        font-size: 10px;
+}
+.dropdown-item{
+    width:112% !important;
+}
