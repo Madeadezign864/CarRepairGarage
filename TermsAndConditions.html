@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="styleTerms.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+     crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .left{
+         padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 left"> <a href="index.html"> <strong>BACK</strong></a></div>
+            <div class="col-md-8">
+                
+                <h1 style="text-align: center; padding:20px;">Terms of Use </h1> 
+                <box>
+                     <h2>1. Introduction</h2>
+                     <p >Welcome to [Ade Auto Repair]! By accessing or using this website,
+                        you agree to the following Terms of Use. If you do not agree with 
+                        these terms, do not use this site.
+                     </p>
+                      <h2>2. Intellectual Property Rights</h2>
+                      <p>All content on this website, including text, images, design, and 
+                        source code, is the property of [Malcolm Riccardo] and is protected
+                        by copyright laws.Unauthorized use, reproduction, or distribution is 
+                        prohibited.
+                      </p>
+                      <h2>3. Acceptable Use</h2>
+                      <p>You agree to use this website responsibly and lawfully. You may not:
+                        <ul>
+                            <li>Copy, modify, or distribute website materials without permission</li>
+                            <li>Use automated systems to extract data(scraping)</li>
+                            <li>Claim ownership of any part of the website's design or code.</li>
+                        </ul>
+                      </p>
+                      <h2>4.Use of images on this site</h2>
+                      <p>All images used on this site are free images.
+                        These are used simply to enhance the initial user experience when
+                        viewing pages. This method is preferred over just using blanked
+                        out placeholders. The use of images:
+                        <ul>
+                            <li>free images can be replaced with the client's preferred images</li>
+                            <li>replacement images may be a better quality and are highly recommended</li>
+                            <li> free images have been used to save costs</li>
+                            <li>when replacing free images with quality images, these are bought for a small fee (around £5.00 each)</li>
+                        </ul>
+                      </p>
+                      <h2>5.Disclaimer clause</h2>
+                      <p>"No warranties or guarantees are including in this website,
+                        regarding future functionality, performance, or compatibility beyond initial delivery"
+                      </p>
+                      <h2>6.Requesting changes to this website and costs</h2>
+                      <p>Please fill out this form, agree to Terms of Use, and state any changes you want to make.</p>
+                       <form action="https://formspree.io/f/xnnjwaee" method="POST">
+                    
+                   <div class="col-md-8"></div>
+                  <input type="text" name="First" placeholder="First Name"autocomplete="off"required>
+                   <div class="invalid-feedback">Please enter your first name</div>
+                    <div class="col-md-2"></div>
+                 <input type="text" name="Last" placeholder="Last Name"autocomplete="off"required>
+                 <div class="invalid-feedback">Please enter your last name</div>
+                  <div class="col-md-2"></div>
+                 <input type="email" name="email" placeholder="Email Address"autocomplete="off"required>
+                  <div class="invalid-feedback">Please enter your email address</div>
+                  <div class="col-md-2"></div>
+                  <input type="telephone" name="telephone" placeholder="Telephone "autocomplete="off"required>
+                   <div class="invalid-feedback">Please enter your telephone number</div>
+                     <div class="col-md-2"></div>
+                 <textarea row="10" cols="36" name="message" placeholder="Details about changes" autocomplete="off" required></textarea>
+                 <div class="invalid-feedback">Please state exactly what you want changed</div>
+                 <br><br>
+                 <div class="col-md-8">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+      <label class="form-check-label" for="invalidCheck"> I agree to these terms  </label>
+      <div class="invalid-feedback">You must agree to the terms use.</div>
+    </div>
+  </div><br>
+                
+     <button type="submit" class="btn btn-primary" id="liveToastBtn">Submit </button>
+   
+
+<div class="toast-container position-fixed bottom-0 start-0 p-6">
+  <div class="toast" id="liveToast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+      <div class="d-flex gap-4">
+        <span><i class="fa-solid fa-circle-check fa-lg icon-success"></i></span>
+        <div class="d-flex flex-column flex-grow-1 gap-2">
+          <div class="d-flex align-items-center">
+            <button type="submit" class="btn-close btn-close-sm ms-auto" data-bs-dismiss="toast"
+              aria-label="Close" ></button>
+            <span class="fw-semibold" >You have agreed to the Terms of Use</span>
+          </div>
+          <span>You can come back to this page at any time </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                 <br>
+              </form>   
+                </box>
+           
+        </div>
+    </div>
+    <div class="col left"> <a href="index.html"> <strong>BACK</strong></a></div>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form");
+  const toastTrigger = document.getElementById("liveToastBtn");
+  const toastLiveExample = document.getElementById("liveToast");
+
+  form.addEventListener("submit", function (event) {
+    if (!form.checkValidity()) {
+      event.preventDefault(); // Prevent submission if validation fails
+      form.classList.add("was-validated"); // Adds Bootstrap validation styles
+    } else {
+      event.preventDefault(); // Prevent immediate submission
+      const toast = new bootstrap.Toast(toastLiveExample);
+      toast.show();
+
+      // Submit form AFTER 3 seconds (adjust time as needed)
+      setTimeout(() => {
+        form.submit();
+      }, 3000);
+    }
+  });
+});
+</script><br><br>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
