@@ -62,7 +62,8 @@ h1{
 
 }
 .banner{
-    height:800px;
+    height:100%;
+    width:100%;
 }
 h2{
     padding: 10px 0px 0px 15px;
