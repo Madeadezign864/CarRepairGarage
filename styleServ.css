@@ -1,4 +1,4 @@
-  body{
+ body{
         background-color:honeydew;
     }
     .main-heading{
@@ -9,6 +9,38 @@
        justify-content: center;
        background-color: bisque;
     }
+    .dropdown-menu {
+    background-color: white !important;
+    text-align: center;
+    width:auto;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-item:hover {
+    color:antiquewhite !important;
+    background-color:blue !important;
+   
+}
+.dropdown-item{
+    width:110% !important;
+}
+
+ .navbar-brand{
+     display:flex;
+     align-items: center;
+      width:240px;
+      height: 120px;
+      border-radius: 100%;
+      box-shadow:5px 5px 5px 5px #26343a;
+      padding-left: 30px;
+      padding-top: 30px;
+      background-color: white;
+   }
+
+.container-fluid{
+      background-color:rgb(238, 81, 18);
+   }
+ 
     img {
     max-width: 100%;
     padding: 20px;
@@ -34,10 +66,7 @@
     .main-points-row div{
         flex: 1;
         min-width: 300px; /*ensures enough space for each section*/
-        
-       
 }
-
       .main-points-row2 {
          display:flex;
          flex-wrap: wrap;
@@ -58,15 +87,6 @@
         min-width: 300px; /*ensures enough space for each section*/
     }
 
-      
-
-    .nav-bar{
-        display:flex;
-       align-items: center;
-       justify-content: center;
-        height:160px;
-        background-color:rgb(223, 105, 58);
-    }
 nav ul {   
     list-style: none;
 }
@@ -91,19 +111,6 @@ li{
     height:100%;
     width:100%;
 }
-.dropdown-menu {
-    background-color: lightgray !important;
-    text-align: center;
-    width:auto;
-    align-items: center;
-    justify-content: center;
-}
-.dropdown-item:hover {
-    color:antiquewhite !important;
-    background-color:darkgray !important;
-   
-}
-.dropdown-item{
-    width:112% !important;
-}
 
+
+  
