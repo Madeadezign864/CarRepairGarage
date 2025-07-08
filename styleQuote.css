@@ -1,14 +1,33 @@
- body {
+body {
             background-color:beige; <img src="https:../Ade s Auto/images/AdeInsideShop.jpg" alt="Ade Auto Repair" 
                style="width: 100px; height: auto; border-radius: 5px; margin-top: 5px;">
         }
           
+         svg {
+  padding-left:5px;
+ } 
     nav {
-    background-color: #be3a3a; /* black background to complement blue header */
+  
     padding: 20px;
     text-align: center;
-}
+} 
 
+.navbar-brand{
+     display:flex;
+     align-items: center;
+      width:240px;
+      height: 120px;
+      border-radius: 100%;
+      box-shadow:5px 5px 5px 5px #1e323a;
+      padding-left: 30px;
+      padding-top: 30px;
+      background-color:white
+   }
+
+.container-fluid{
+
+      background-color:rgb(233, 35, 17);
+   }
 nav ul li a {
     text-decoration: none;
     color: #fff;
@@ -29,7 +48,7 @@ h1{
 .main-points img {
 
     width:90%; /* Adjust as needed */
-    max-width: 100%;
+    max-width: 110%;
     height:auto;
 }
 .main-points{
@@ -76,11 +95,11 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin-right:70px;
-    padding:10px;
+    padding:15px;
 }
 
 #Quote{
-    text-align: center;
+    
     padding-bottom: 18px;
     border-radius: 50px !important;
 }
@@ -98,7 +117,7 @@ h2 {
     margin-left: 10%;
 }
 .dropdown-menu {
-    background-color: lightgray !important;
+    background-color: white; !important;
      border-radius: 10px;
     text-align: center;
     width:auto;
@@ -106,12 +125,12 @@ h2 {
     justify-content: center;
 }
 .dropdown-item:hover {
-    color:antiquewhite !important;
-    background-color:darkgray !important;
+    color:white !important;
+    background-color:rgb(61, 87, 238) !important;
    
 }
 .dropdown-item{
-    width:112% !important;
+    width:109% !important;
 }
 form {
   text-align: center;
@@ -146,10 +165,9 @@ form {
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 20px;
 }
-input textarea {
-
-    box-shadow: 5px 5px 5px 5px blue;
+input {
+ padding:5px;
+    box-shadow: 1px 1px 1px 1px #be3a3a;
 }
