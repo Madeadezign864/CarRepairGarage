@@ -30,6 +30,12 @@
       padding-top: 30px;
       background-color: crimson;
     }
+   nav ul li {  
+    text-align: center;
+    margin-right: 30px;
+     font-size: 25px;
+     font-weight:600;
+}
 
     .dropdown-menu {
     background-color: white !important;
@@ -102,7 +108,7 @@
       list-style-type: none;
     }
     .dropdown-item{
-    width:100% !important;
+    width:110% !important;
 }
 
 
