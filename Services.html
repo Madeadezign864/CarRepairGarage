@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,13 @@
        <link rel="stylesheet" href="styleServ.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="About.html"> Ade Auto Repairs<svg xmlns="http://www.w3.org/2000/svg" width="28" height="30" 
+        <a class="navbar-brand" href="About.html"> <img src="./images/Ade Auto Repairs white.png" width="210" height="0" 
           fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
   <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
 </svg> 
@@ -47,7 +48,7 @@
   </nav> 
 
     <div class="main-heading">
-    <h1>Vehicle Services </h1>
+    <h1 id="MOT">Vehicle Services </h1>
     <i class="fa fa-car"></i>
 
 <!-- Larger icons -->
@@ -60,9 +61,8 @@
 <!-- Spinning icon 
 <i class="fa fa-spinner fa-spin"></i>-->
 
-
     </div>
-        <div id="Servicing and MOT"class="row main-points-row" id="MOT">>
+        <div id="Servicing and MOT"class="row main-points-row">
                   <div class=" col-md-4 col-md-push-8" >
                   <img src="./images/CarServicingDipStick.jpg" class="img-fluid mx-auto d-block" alt="photo of a diagnostic machine">
                   </div>
@@ -83,7 +83,7 @@
         </div>
                <div class="row main-points-row2" id="EngineGearbox">
                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 ">
-                        <h2 >
+                        <h2>
                         Engine and Gearbox
                     </h2>
                        <ul>
@@ -100,12 +100,12 @@
                         <img  src="./images/engineAndGearbox.jpg" class= "img-fluid mx-auto d-block" alt="photo of engine and gearbox"  >
                      </div>
                </div>
-               <div class="row main-points-row" id="bodyRepair">
+               <div class="row main-points-row"id="bodyRepair"  >
                   <div class="col-xs-12 col-sm-6 col-md-4"> <!--class="col-md-4 col-md-push-8"--->
                      <img  src="./images/bodyRepair1.jpg"  class="img-fluid mx-auto d-block" alt=" photo of a man repairing bodywork of car">
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-4"><!--class="col-md-8 col-md-pull-4"-->
-                    <h2>
+                    <h2 >
                         Bodywork 
                     </h2>
                     <ul>
@@ -119,7 +119,7 @@
                           <a href="Quotation.html" button type="button" class="btn btn-outline-secondary btn-lg px-4">Get a Quote</button></a>
                   </div>
                </div>
-                   <div class="row main-points-row2" id="BreakDownService" >
+                   <div class="row main-points-row2" id="BreakDownService">
                      <div  class="col-xs-12 col-sm-6 col-md-4"><!--class="col-md-7 col-md-pull-4"-->
                         <h2>
                         Breakdown Service
@@ -137,6 +137,24 @@
                         <img  src="./images/breakdownService.jpg" class="img-fluid mx-auto d-block" alt="photo of a breakdown truck">
                      </div>
                </div>
+<footer id="address">
+<div class="footer-column"><br>
+<a class="nav-footer" href="#"> Ade Auto Repairs  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="30" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+ <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z">
+</svg> 
+                <ul id="dots">
+                    <li style="font-size: 15px;">Address: 201 Barnardo Street, London, EL1 0LL</li>
+                    <li style="font-size: 15px;">Email: adeautorepairs@aol.com</li>
+                    <li style="font-size: 15px;">Phone: 02074 239 743 </li>
+                </ul>
+                 <p>© 2018 Ade's Auto - All rights reserved.</p>
+                 <a href="https://www.facebook.com/adeautorepairs/?locale=en_GB" class="fa fa-facebook"></a>
+                 <a href="https://x.com/ade_auto68222"  class= "fa fa-twitter"></a>
+                 <a href="https://www.instagram.com/adeauto_repairs/" class="fa fa-instagram"></a>
+            </div>
+   
+          </footer>
+
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
  <script src="https://kit.fontawesome.com/1b4f1024e2.js" crossorigin="anonymous"></script>
     </body>
