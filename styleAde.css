@@ -28,14 +28,8 @@
       box-shadow:5px 5px 5px 5px #3891b4;
       padding-left: 30px;
       padding-top: 30px;
-      background-color: crimson;
+      background-color: white;
     }
-   nav ul li {  
-    text-align: center;
-    margin-right: 30px;
-     font-size: 25px;
-     font-weight:600;
-}
 
     .dropdown-menu {
     background-color: white !important;
@@ -49,6 +43,7 @@
    .dropdown-item:hover {
     color:white !important;
     background-color:rgb(136, 170, 170)   !important;
+    
     }
    
     .btn.btn-outline-success {
@@ -69,7 +64,13 @@
     .nav-item{
         font-size: 26px;
     }
-  
+
+  nav ul li {  
+    text-align: center;
+    margin-right: 30px;
+     font-size: 25px;
+     font-weight:600;
+}
     .container-main-top {
       background-color:bisque;
       padding-bottom: 15px;
@@ -103,11 +104,19 @@
      .nav-footer{
       background-color: rgb(240, 21, 21);
       color:aliceblue;font-weight: bold;
+      font-size: 25px;
     }
+    footer p{
+      font-size:15px;
+    
+    }
+
+   
     #dots{
       list-style-type: none;
     }
-    .dropdown-item{
+
+.dropdown-item{
     width:110% !important;
 }
 .fa {
@@ -143,5 +152,3 @@
 }
 
 
-
-  
