@@ -2,16 +2,13 @@ body {
             background-color:beige; <img src="https:../Ade s Auto/images/AdeInsideShop.jpg" alt="Ade Auto Repair" 
                style="width: 100px; height: auto; border-radius: 5px; margin-top: 5px;">
         }
-          
          svg {
   padding-left:5px;
  } 
     nav {
-  
     padding: 20px;
     text-align: center;
 } 
-
 .navbar-brand{
      display:flex;
      align-items: center;
@@ -21,11 +18,9 @@ body {
       box-shadow:5px 5px 5px 5px #1e323a;
       padding-left: 30px;
       padding-top: 30px;
-      background-color:white
+      background-color:white;
    }
-
-.container-fluid{
-
+   .container-fluid{
       background-color:rgb(233, 35, 17);
    }
 nav ul li a {
@@ -34,7 +29,6 @@ nav ul li a {
     font-weight: bold;
     transition: color 0.3s ease;
 }
-
 nav ul li a:hover {
     color: #003366;
 }
@@ -44,7 +38,6 @@ li{
 h1{
     text-align: center;
 }
-
 .main-points img {
 
     width:90%; /* Adjust as needed */
@@ -56,15 +49,14 @@ h1{
     flex-wrap: wrap;
     align-items: center; /* Align items vertically */
     justify-content:space-between; /* Spread them evenly */
+    
 }
-
  .nav-bar{
         display:flex;
        align-items: center;
        justify-content: center;
         height:30px;
     }
-
 nav ul {   
     list-style: none;
 }
@@ -76,7 +68,6 @@ nav ul li {
      font-size: 25px;
      font-weight:600;
 }
-
 .submit {
     margin-left: 50px;
     border-radius: px;
@@ -88,7 +79,7 @@ nav ul li {
     color:antiquewhite;
     font-weight: bold;
 }
-p {
+.third-row p {
     border-style: ridge;
     border-width:10px; 
     background-color: aliceblue;
@@ -97,9 +88,7 @@ p {
     margin-right:70px;
     padding:15px;
 }
-
 #Quote{
-    
     padding-bottom: 18px;
     border-radius: 50px !important;
 }
@@ -108,7 +97,6 @@ p {
     width:90px;
     border-radius: 50px;;
 }
-
 h2 {
     text-align: center;
     padding: 16px 20px 0px 0px;
@@ -127,7 +115,6 @@ h2 {
 .dropdown-item:hover {
     color:white !important;
     background-color:rgb(61, 87, 238) !important;
-   
 }
 .dropdown-item{
     width:109% !important;
@@ -144,22 +131,18 @@ form {
     text-align: center;
     padding: 20px;
 }
-
 .second-row img {
     max-width: 100%;
     height: auto;
 }
-
 @media (max-width: 768px) {
     .second-row {
         flex-direction: column;
     }
-
     .second-row h2 {
         font-size: 1.5rem;
     }
 }
-
 .third-row{
     display:flex;
     flex-wrap:wrap;
@@ -170,4 +153,51 @@ form {
 input {
  padding:5px;
     box-shadow: 1px 1px 1px 1px #be3a3a;
+}
+.footer-column {
+    text-align: center;
+      height:340px;
+    background-color:rgb(240, 21, 21);
+    padding-top: 40px;
+    font-size: 25px;
+    }
+    footer{
+      margin-top:118px;
+    }
+     .nav-footer{
+      background-color: rgb(240, 21, 21);
+      color:aliceblue;font-weight: bold;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    #dots{
+      list-style-type: none;
+    }
+    .fa {
+  padding: 10px;
+  font-size: 54px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+   box-shadow: 3px 3px 1px rgb(49, 48, 48);
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
 }
