@@ -115,6 +115,7 @@ h2{
     .second-about-row{
         display:flex-inline;
         margin-top: 100px;
+            margin-bottom: 100px;
     }
     .dropdown-item:hover {
     color:white !important;
