@@ -4,7 +4,6 @@
     .container-fluid{
       background-color:rgb(135, 169, 170);
    }
- 
     .btn.btn-outline-success {
       font-size:smaller;
       font-weight:bolder;
@@ -30,7 +29,6 @@
       padding-top: 30px;
       background-color: white;
     }
-
     .dropdown-menu {
     background-color: white !important;
     text-align: center;
@@ -43,9 +41,7 @@
    .dropdown-item:hover {
     color:white !important;
     background-color:rgb(136, 170, 170)   !important;
-    
     }
-   
     .btn.btn-outline-success {
       font-size:smaller;
       font-weight:bolder;
@@ -57,19 +53,22 @@
         background-color: black;
         color:aliceblue;
     }
-  
-    .nav-item:hover{
+
+    .icon-link:hover{
       color:blue;
+      font-weight: 600;
     }
     .nav-item{
         font-size: 26px;
     }
-
   nav ul li {  
     text-align: center;
     margin-right: 30px;
      font-size: 25px;
      font-weight:600;
+}
+.nav-link:hover {  
+color:blue !important;
 }
     .container-main-top {
       background-color:bisque;
@@ -83,6 +82,12 @@
     .carousel-item{
         height:700px;
     }
+    .last-row{
+      display:flex;
+      flex-wrap: wrap;
+      margin:50px 20px;
+      height:600px;
+    }
     #where{
      padding: 30px;
        background-color:bisque;
@@ -92,23 +97,43 @@
       height:400px;
       width:auto;
     }
-    .footer-column {
+   .footer-column {
     text-align: center;
-      height:270px;
-       background-color:rgb(135, 169, 170);
+      height:340px;
+ background-color:rgb(135, 169, 170);
+    padding-top: 40px;
+    font-size: 25px;
     }
     footer{
-      margin-top:8px;
+      margin-top:10px;
     }
-
      .nav-footer{
-      background-color: rgb(240, 21, 21);
       color:aliceblue;font-weight: bold;
-      font-size: 25px;
     }
     footer p{
-      font-size:15px;
+        font-size: 15px;
+    }
+    #dots{
+      list-style-type: none;
+    }
     
+    #overground{
+
+      height:60px;
+      width:63px;
+    }
+    #dlr{
+      height:68px;
+      width:78px;
+    }
+    #rotherhithe{
+      width:600px;
+    }
+    #hours{
+      text-align: center;
+      padding-top: 130px;
+
+      list-style-type: none;
     }
 
    
@@ -120,26 +145,21 @@
     width:110% !important;
 }
 .fa {
-  padding: 10px;
-  font-size: 54px;
+  padding: 15px;
+  font-size: 59px;
   width: 50px;
-
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-   box-shadow: 3px 3px 1px rgb(49, 48, 48);
 }
-
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
   border-radius: 50%;
 }
-
 .fa-twitter {
   background: #55ACEE;
   color: white;
@@ -150,5 +170,13 @@
   color: white;
   border-radius: 50%;
 }
+.personal{
+  height: 100px;
+}
 
+
+
+
+
+   
 
