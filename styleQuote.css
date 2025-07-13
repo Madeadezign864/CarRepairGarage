@@ -1,7 +1,7 @@
 body {
             background-color:beige; <img src="https:../Ade s Auto/images/AdeInsideShop.jpg" alt="Ade Auto Repair" 
                style="width: 100px; height: auto; border-radius: 5px; margin-top: 5px;">
-        }
+        }   
          svg {
   padding-left:5px;
  } 
@@ -23,12 +23,18 @@ body {
    .container-fluid{
       background-color:rgb(233, 35, 17);
    }
+    .nav-link:hover {  
+   color:blue !important;
+   font-weight: 650;
+   }
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     transition: color 0.3s ease;
 }
+
 nav ul li a:hover {
     color: #003366;
 }
@@ -51,12 +57,14 @@ h1{
     justify-content:space-between; /* Spread them evenly */
     
 }
+
  .nav-bar{
         display:flex;
        align-items: center;
        justify-content: center;
         height:30px;
     }
+
 nav ul {   
     list-style: none;
 }
@@ -68,6 +76,7 @@ nav ul li {
      font-size: 25px;
      font-weight:600;
 }
+
 .submit {
     margin-left: 50px;
     border-radius: px;
@@ -88,7 +97,9 @@ nav ul li {
     margin-right:70px;
     padding:15px;
 }
+
 #Quote{
+    
     padding-bottom: 18px;
     border-radius: 50px !important;
 }
@@ -97,6 +108,7 @@ nav ul li {
     width:90px;
     border-radius: 50px;;
 }
+
 h2 {
     text-align: center;
     padding: 16px 20px 0px 0px;
@@ -131,6 +143,7 @@ form {
     text-align: center;
     padding: 20px;
 }
+
 .second-row img {
     max-width: 100%;
     height: auto;
@@ -160,10 +173,12 @@ input {
     background-color:rgb(240, 21, 21);
     padding-top: 40px;
     font-size: 25px;
+   
     }
     footer{
       margin-top:118px;
     }
+
      .nav-footer{
       background-color: rgb(240, 21, 21);
       color:aliceblue;font-weight: bold;
@@ -181,7 +196,6 @@ input {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-   box-shadow: 3px 3px 1px rgb(49, 48, 48);
 }
 .fa:hover {
     opacity: 0.7;
@@ -201,3 +215,8 @@ input {
   color: white;
   border-radius: 50%;
 }
+
+
+   
+  
+  
