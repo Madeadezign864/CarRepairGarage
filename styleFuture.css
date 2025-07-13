@@ -1,0 +1,25 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #FFE4C4;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+    }
+    
+    h1, h2 {
+      color: #3891b4;
+    }
+    .section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-left: 5px solid #3891b4;
+      background-color: #fff8ef;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    ul {
+      list-style-type: '✅ ';
+      padding-left: 1.2rem;
+    }
+    .optional ul {
+      list-style-type: '🛠️ ';
+    }
